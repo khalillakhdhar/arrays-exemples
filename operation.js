@@ -1,5 +1,5 @@
 var fruits=["pommes","oranges","bananes"];
-showFruits();
+//showFruits();
 /*fruits.pop();
 console.log("aprés supression")
 showFruits()
@@ -8,6 +8,9 @@ console.log("aprés ajout")
 showFruits();
 */
 fruits.splice(1,2)
+showFruits();
+fruits.splice(0,0,["fraise","bananes"]);
+console.log("aprés ajout")
 showFruits();
 
 
